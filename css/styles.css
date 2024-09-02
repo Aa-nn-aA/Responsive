@@ -1,0 +1,245 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Logo */
+.logo {
+    width: 50px;
+    height: 50px;
+    opacity: 0; /* Assuming this is for styling, might need revising */
+    padding-left: 0;
+}
+
+/* Navbar / Top Section */
+.top {
+    padding-left: 5%;
+    width: 90%;
+    max-width: 1200px;
+    height: 40px;
+    background-color: #FFFFFF;
+    margin: auto;
+}
+
+.aerovision {
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 900;
+    line-height: 1.5;
+    color: #333333;
+    margin-right: auto;
+}
+
+/* Buttons */
+.btn, .abtn, .bbtn {
+    border-radius: 60px;
+    font-family: Georgia, serif;
+    font-size: 1rem;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    display: inline-block;
+    text-align: center;
+}
+
+.btn {
+    background: #0077ff;
+    color: #ffffff;
+    width: 140px;
+}
+
+.btn:hover {
+    background: #346cad;
+}
+
+.abtn {
+    background: #ffffff;
+    color: #0077ff;
+    border: 2px solid #0077ff;
+    width: 200px;
+    margin-left: 30px;
+}
+
+.abtn:hover {
+    background: #edf2f5;
+}
+
+.bbtn {
+    background: #0077ff;
+    color: #ffffff;
+    width: 400px;
+}
+
+/* Containers */
+#containerss, #containersss, #containerssss {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0 5%;
+}
+
+.blue-box1, .blue-box2, .blue-box3, .white-box1, .white-box2, .white-box3, .white-box4 {
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.blue-box1, .blue-box2, .blue-box3 {
+    background-color: #0077FF;
+    color: white;
+}
+
+.grey-box {
+    background-color: rgb(212, 211, 211);
+}
+
+/* Text */
+.para, .pro, .TESTIMONALS, .copy, .cm, .rfc {
+    text-align: center;
+}
+
+.para, .serv, .skill, .cen, .cent {
+    padding: 20px;
+}
+
+.para, .copy {
+    width: 100%;
+}
+
+/* Images */
+.annaphoto, .annaphoto2 {
+    max-width: 100%;
+    height: auto;
+}
+
+.logoo {
+    background-color: rgb(198, 198, 198);
+    width: 100%;
+    height: 180px;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .top {
+        padding-left: 2%;
+    }
+
+    .aerovision {
+        margin-right: 0;
+    }
+    
+    #containerss, #containersss, #containerssss {
+        padding: 0 2%;
+    }
+    
+    .btn, .abtn, .bbtn {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+
+    .abtn {
+        width: 180px;
+    }
+    
+    .bbtn {
+        width: 300px;
+    }
+
+    .white-box1, .white-box2, .white-box3, .white-box4, .blue-box1, .blue-box2, .blue-box3 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .top {
+        padding-left: 0;
+        width: 100%;
+    }
+    
+    .aerovision {
+        margin-right: 0;
+        font-size: 1rem;
+    }
+
+    #containerss, #containersss, #containerssss {
+        flex-direction: column;
+    }
+    
+    .btn, .abtn, .bbtn {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    .abtn {
+        width: auto;
+    }
+    
+    .bbtn {
+        width: auto;
+    }
+    
+    .white-box1, .white-box2, .white-box3, .white-box4, .blue-box1, .blue-box2, .blue-box3 {
+        width: auto;
+    }
+    
+    .annaphoto, .annaphoto2 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        width: 40px;
+        height: 40px;
+    }
+
+    .top {
+        padding-left: 0;
+        width: 100%;
+    }
+    
+    .aerovision {
+        font-size: 0.9rem;
+    }
+
+    .btn, .abtn, .bbtn {
+        font-size: 0.8rem;
+        padding: 6px 12px;
+    }
+    
+    .abtn {
+        width: auto;
+    }
+    
+    .bbtn {
+        width: auto;
+    }
+    
+    .white-box1, .white-box2, .white-box3, .white-box4, .blue-box1, .blue-box2, .blue-box3 {
+        width: auto;
+    }
+    
+    .annaphoto, .annaphoto2 {
+        width: 100%;
+    }
+}
+
+.social-icon1{
+    height: 20px;
+    width: 20px;
+}
+
+.social-icon2{
+    height: 20px;
+    width: 20px;
+}
+.social-icon3{
+    height: 20px;
+    width: 20px;
+}
+.social-icon4{
+    height: 20px;
+    width: 20px;
+}
